@@ -1,0 +1,25 @@
+<?xml version = "1.0" encoding = "UTF-8"?>
+<catalog>
+	<company>Sweet Spot</company>
+	<item>    
+		<name>Tennis Racket</name>    
+		<price>$399.00</price>    
+		<manufacturer>Las Vegas King Rackets</manufacturer>    
+		<colors>        
+			<color sku = "RAC401B" hex = "#003366">Blue</color>        
+			<color sku = "RAC401W" hex = "#ffffff">White</color>            
+		</colors>    
+		<summary>Expensive but fantastic tennis racket. Unstrung.</summary>    
+		<description>You may not think that you are ready for the US Open, but with this racket in hand you could get there. The slipless grip, extra length, and broad head design ensure the ball is in your path no matter where you stand.</description>
+	</item>
+	<item>    
+		<name>Tennis Balls</name>    
+		<price>$3.99</price>    
+		<manufacturer>Magic Rockets Corporation</manufacturer>    
+		<colors>        
+			<color sku = "BLZ000" hex = "#003399">OnlyOne</color>                    
+		</colors>    
+		<summary>Basic level tennis balls.</summary>    
+		<description>You cannot play tennis without these flyers.</description>
+	</item>
+</catalog>

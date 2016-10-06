@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE document SYSTEM "sd.dtd" [
+
+<!-- Begin Document Specific Declarations -->
+
+
+<!-- End Document Specific Declarations -->
+
+]>
+<document><Title><Head>A Small Sample Document</Head></Title>
+<Section><Head>Heading Level 1</Head>
+<Body>This is a brief document created using FrameMaker 7’s portrait
+document template. It shows several of the paragraphs in use and
+as they might appear to you if you typed them. This text is using a
+paragraph format called Body.</Body>
+<Section><Head>Heading Level 2</Head>
+<Body>The level 2 heading  is slightly smaller than the heading
+above. This is sample text, in a Body paragraph, to show you what
+text beneath this heading might look like. A bulleted list follows.</Body>
+<List Type = "Bullet"><Item>The first item using the Bulleted paragraph</Item>
+<Item>Another item using the Bulleted paragraph</Item>
+<Item>The last item using the Bulleted paragraph</Item></List></Section>
+<Section><Head>Heading Level 2</Head>
+<Body>Repeating from above, the heading level 2  is slightly smaller
+than the heading level 1. This is sample text, in a Body paragraph,
+to show you what text beneath this heading might look like. A numbred
+list is included below.</Body>
+<List Type = "Number"><Item>This first paragraph uses Numbered1.</Item>
+<Item>This automatically is tagged Numbered.</Item>
+<Item>Numbered is repeated on this item.</Item></List></Section></Section>
+<Section><Head>Second and Required Heading Level 1</Head>
+<Body>This body paragraph is the minimum content required within
+this structured section.</Body></Section></document>
+

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Document SYSTEM "sd.dtd" [
+
+<!-- Begin Document Specific Declarations -->
+
+
+<!-- End Document Specific Declarations -->
+
+]>
+
+<?Fm Condition Comment Red SINGLE_UNDERLINE show?>
+<Document><Title><Head>A Small Sample Document</Head></Title>
+<Section><Head>Introduction</Head>
+<Body>This is a brief document created using FrameMaker 7’s portrait
+document template.</Body>
+<Section><Head>Internal Cross Reference Examples</Head>
+<Body>The paragraphs below are for testing internal cross references
+for formatting.</Body>
+<List Type = "Bullet"><Item><Xref RefID = "CEGBAFAA"
+    format = "Heading &#x0026; Page"/></Item>
+<Item><Xref RefID = "CEGIHGHG" format = "Heading &#x0026; Page"/></Item>
+<Item><Xref RefID = "CEGHGHCE" format = "Heading &#x0026; Page"/></Item></List></Section>
+<Section><Head>External Cross Reference Examples</Head>
+<Body>The paragraphs below are for testing external cross references
+for formatting.</Body>
+<List Type = "Bullet"><Item><Xref format = "Heading &#x0026; Page"
+    srcfile = "xref_idref_example.xml#BHBDHGDC"/></Item>
+<Item><Xref format = "Heading &#x0026; Page"
+    srcfile = "xref_idref_example.xml#BHBDHEFF"/></Item>
+<Item><Xref format = "Heading &#x0026; Page"
+    srcfile = "xref_idref_example.xml#BHBEHGAC"/></Item></List></Section></Section>
+<Section><Head>Cross Reference Examples</Head>
+<Body Id = "CEGBAFAA">Small, single paragraph to refer to in first
+doc</Body>
+<Body Id = "CEGIHGHG">Smal, second paragraph to refer to in first
+doc</Body>
+<Body Id = "CEGHGHCE">Small, third paragraph to refer to in first
+doc</Body></Section></Document>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--DTD for Book. Typically invoked by
+      <!DOCTYPE  Book  SYSTEM
+    "C:\Documents and Settings\Kay Ethier\My Documents\APress-FrameMaker71version\samples\simpledoc\sd.dtd">
+-->
+
+
+<!--C:\Documents and Settings\kethier\My
+ Documents\Apress-FrameXMLBook\samples\portrait\sdtemplate.fm-->
+
+<!--July 2, 2003-->
+
+<!ELEMENT Book       (TOC?, (LOT | LOF)*, Document, Document+, IX) >
+
+<!ELEMENT Document   (Title?, Section, Section+) >
+
+<!ELEMENT TOC        (#PCDATA) >
+
+<!ELEMENT LOT        (#PCDATA) >
+
+<!ELEMENT LOF        (#PCDATA) >
+
+<!ELEMENT IX         (#PCDATA) >
+
+<!ELEMENT Section    (Head, Body, (Body | Figure | Table | List)*,
+                              (Section, Section+)?) >
+
+<!ELEMENT Body       (#PCDATA) >
+<!ATTLIST Body       Id        ID        #IMPLIED >
+
+<!ELEMENT Footnote   (#PCDATA) >
+
+<!ELEMENT Head       (#PCDATA) >
+<!ATTLIST Head       Id        ID        #IMPLIED >
+
+<!ELEMENT Indented   (#PCDATA) >
+
+<!ELEMENT Index_Marker 
+                     EMPTY >
+<!ATTLIST Index_Marker 
+                     type      CDATA     #IMPLIED
+                     text      CDATA     #IMPLIED >
+
+<!ELEMENT Item       (#PCDATA | Indented)* >
+
+<!ELEMENT List       (Item, Item+) >
+<!ATTLIST List       Type      (Bullet|Number)  #REQUIRED >
+
+<!ELEMENT Frame      EMPTY >
+<!ATTLIST Frame      entity    ENTITY    #IMPLIED
+                     file      CDATA     #IMPLIED
+                     dpi       NMTOKEN   #IMPLIED
+                     rasterdpi  NMTOKEN   #IMPLIED
+                     alt       CDATA     #IMPLIED
+                     impsize   CDATA     #IMPLIED
+                     impby     (ref|copy)  #IMPLIED
+                     sideways  NMTOKEN   #IMPLIED
+                     impang    CDATA     #IMPLIED
+                     xoffset   CDATA     #IMPLIED
+                     yoffset   CDATA     #IMPLIED
+                     position  NMTOKEN   #IMPLIED
+                     align     NMTOKEN   #IMPLIED
+                     cropped   NMTOKEN   #IMPLIED
+                     float     NMTOKEN   #IMPLIED
+                     width     CDATA     #IMPLIED
+                     height    CDATA     #IMPLIED
+                     angle     CDATA     #IMPLIED
+                     bloffset  CDATA     #IMPLIED
+                     nsoffset  CDATA     #IMPLIED >
+
+<!ELEMENT Figure     (Frame, Caption?) >
+
+<!ELEMENT Caption    (#PCDATA) >
+
+<!ELEMENT Table      (TableTitle?, TableHead?, TableBody, TableFoot?) >
+
+<!ELEMENT TableBody  (TableRow+) >
+
+<!ELEMENT TableCell  (#PCDATA) >
+
+<!ELEMENT TableFoot  (TableRow, TableRow*) >
+
+<!ELEMENT TableHead  (TableRow, TableRow*) >
+
+<!ELEMENT TableRow   (TableCell+) >
+
+<!ELEMENT TableTitle (#PCDATA) >
+<!ATTLIST TableTitle 
+                     Id        ID        #IMPLIED >
+
+<!ELEMENT Title      (Head) >
+<!ATTLIST Title      Id        ID        #IMPLIED >
+
+<!ELEMENT Xref       EMPTY >
+<!ATTLIST Xref       RefID     IDREF     #REQUIRED
+                     format    CDATA     #IMPLIED
+                     srcfile   CDATA     #IMPLIED >
+
+<!ELEMENT Emphasis   (#PCDATA) >
+
+<!ELEMENT Equation   EMPTY >
+<!ATTLIST Equation   entity    ENTITY    #IMPLIED
+                     file      CDATA     #IMPLIED
+                     position  NMTOKEN   #IMPLIED
+                     align     NMTOKEN   #IMPLIED
+                     cropped   NMTOKEN   #IMPLIED
+                     float     NMTOKEN   #IMPLIED
+                     width     CDATA     #IMPLIED
+                     height    CDATA     #IMPLIED
+                     angle     CDATA     #IMPLIED
+                     bloffset  CDATA     #IMPLIED
+                     nsoffset  CDATA     #IMPLIED
+                     dpi       NMTOKEN   #IMPLIED
+                     alt       CDATA     #IMPLIED >

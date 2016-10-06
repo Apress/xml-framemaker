@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--DTD for catalog. Typically invoked by
+      <!DOCTYPE  catalog  SYSTEM
+    "C:\Documents and Settings\kethier\My Documents\BPS-CONSULTING-PROJECTS\Apress-FrameXMLBook\TheBook\samples\catalog.dtd">
+-->
+
+
+<!--C:\Documents and Settings\kethier\My
+ Documents\BPS-CONSULTING-PROJECTS\Apress-FrameXMLBook\TheBook\samples\cataloge
+quip.fm-->
+
+<!--April 28, 2003-->
+
+<!ELEMENT catalog    ANY >
+
+<!ELEMENT color      ANY >
+<!ATTLIST color      sku       CDATA     #IMPLIED
+                     hex       CDATA     #IMPLIED >
+
+<!ELEMENT colors     ANY >
+
+<!ELEMENT company    ANY >
+
+<!ELEMENT description 
+                     ANY >
+
+<!ELEMENT item       ANY >
+
+<!ELEMENT manufacturer 
+                     ANY >
+
+<!ELEMENT name       ANY >
+
+<!ELEMENT price      ANY >
+
+<!ELEMENT summary    ANY >

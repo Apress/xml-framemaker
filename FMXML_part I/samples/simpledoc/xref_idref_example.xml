@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Document SYSTEM "sd.dtd" [
+
+<!-- Begin Document Specific Declarations -->
+
+<?Fm Validation Off?>
+
+
+<!-- End Document Specific Declarations -->
+
+]>
+
+<?Fm Condition Comment Red SINGLE_UNDERLINE show?>
+<Document><Title><Head>A Second Document</Head></Title>
+<Section><Head>Introduction</Head>
+<Body>This is a brief document created using FrameMaker 7’s portrait
+document template.</Body>
+<Section><Head>Internal Cross Reference Examples</Head>
+<Body>The paragraphs below are for testing internal cross references
+for formatting.</Body>
+<List Type = "Bullet"><Item><Xref RefID = "BHBDHGDC"
+    format = "Heading &#x0026; Page"/></Item>
+<Item><Xref RefID = "BHBDHEFF" format = "Heading &#x0026; Page"/></Item>
+<Item><Xref RefID = "BHBEHGAC" format = "Heading &#x0026; Page"/></Item></List></Section>
+<Section><Head>External Cross Reference Examples</Head>
+<Body>The paragraphs below are for testing external cross references
+for formatting.</Body>
+<List Type = "Bullet"><Item><Xref format = "Heading &#x0026; Page"
+    srcfile = "xref_uniqueIDexample.xml#CEGBAFAA"/></Item>
+<Item><Xref format = "Heading &#x0026; Page"
+    srcfile = "../../../../../../Documents%2520and%2520Settings/Kay%2520Ethier/My%2520Documents/APress-FrameMaker71version/samples/simpledoc/xref_uniqueIDexample.xml#CEGIHGHG"/><Xref
+    format = "Heading &#x0026; Page"
+    srcfile = "xref_uniqueIDexample.xml#CEGIHGHG"/></Item>
+<Item><Xref format = "Heading &#x0026; Page"
+    srcfile = "xref_uniqueIDexample.xml#CEGHGHCE"/></Item></List></Section></Section>
+<Section><Head>Cross Reference Examples</Head>
+<Body Id = "BHBDHGDC">One paragraph to refer to in first doc</Body>
+<Body Id = "BHBDHEFF">Second paragraph to refer to in first doc</Body>
+<Body Id = "BHBEHGAC">Third paragraph to refer to in first doc</Body></Section></Document>

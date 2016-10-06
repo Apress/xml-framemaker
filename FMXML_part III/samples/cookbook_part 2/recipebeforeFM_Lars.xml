@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Recipe><Name>French Baguettes</Name>
+<Ingredients><Item><Quantity>1</Quantity><Unit> cup</Unit><ItemName> water</ItemName></Item>
+<Item><Quantity>2 1/2</Quantity><Unit> cups</Unit><ItemName> bread
+flour </ItemName></Item>
+<Item><Quantity>1</Quantity><Unit> tablespoon</Unit><ItemName> white
+sugar </ItemName></Item>
+<Item><Quantity>1</Quantity><Unit> teaspoon</Unit><ItemName> salt </ItemName></Item>
+<Item><Quantity>1 1/2</Quantity><Unit> teaspoons</Unit><ItemName> bread
+machine yeast </ItemName></Item>
+<Item><Quantity>1 </Quantity><Unit></Unit><ItemName> egg yolk </ItemName></Item>
+<Item><Quantity>1</Quantity><Unit> tablespoon</Unit><ItemName> water </ItemName></Item></Ingredients>
+<Procedure><Step><Para>Measure carefully, and place 1 cup water,
+bread flour, sugar, salt, and yeast into bread machine pan in the
+order recommended by manufacturer. Select Dough/Manual cycle.</Para></Step>
+<Step><Para>Place dough in a greased bowl, turning to coat all sides.
+Cover. Let rise in a warm place for about 30 minutes, or until doubled
+in bulk. Dough is ready if indentation remains when touched.</Para></Step>
+<Step><Para>Punch down dough. Roll into a 16 x 12 inch rectangle
+on a lightly floured surface. Cut dough in half, creating two 8
+x 12 inch rectangles. Roll up each half of dough tightly, beginning
+at 12 inch side. Roll gently back and forth to taper end. Place
+3 inches apart on a greased cookie sheet. Make 1/4 inch deep diagonal
+slashes across loaves every 2 inches, or make one lengthwise slash
+on each loaf. Cover. Let rise in a warm place for 30 to 40 minutes,
+or until doubled in bulk. </Para></Step>
+<Step><Para>Heat oven to 375 degrees F (190 degrees C). Mix egg
+yolk with 1 tablespoon water; brush over tops of loaves. </Para></Step>
+<Step><Para>Bake for 20 to 25 minutes, or until golden brown.</Para></Step></Procedure>
+<Time>60 minutes</Time></Recipe>
+
+
+

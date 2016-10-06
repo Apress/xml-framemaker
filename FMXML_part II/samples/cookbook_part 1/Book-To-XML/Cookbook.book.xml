@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Cookbook SYSTEM "file:///C:/Program%20Files/Adobe/FrameMaker7.0/structure/xml/Cookbook/cookbook.DTD" [
+<!-- Begin Document Specific Declarations -->
+<!ENTITY bkc1 SYSTEM "recipe1.ent">
+<!ENTITY bkc2 SYSTEM "recipe2.ent">
+<!ENTITY bkc3 SYSTEM "recipe3.ent">
+<!-- End Document Specific Declarations -->
+]>
+<?Fm Book?>
+<Cookbook>
+&bkc1;
+&bkc2;
+&bkc3;
+</Cookbook>

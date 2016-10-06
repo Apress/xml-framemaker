@@ -1,0 +1,40 @@
+<!ELEMENT Recipe (Name , Graphic? , Para? , Ingredients , Procedure , Time , Para?)>
+
+<!ATTLIST Recipe  Category  (Entre | Appetizer | Dessert | Other )  'Other' >
+<!ELEMENT Name (#PCDATA)>
+
+<!ELEMENT Graphic EMPTY>
+
+<!ELEMENT Ingredients (Item , Item+)>
+
+<!ELEMENT Item (Quantity , Unit? , ItemName)>
+
+<!ELEMENT Quantity (#PCDATA)>
+
+<!ELEMENT Unit (#PCDATA)>
+
+<!ELEMENT ItemName (#PCDATA)>
+
+<!ELEMENT Procedure (Step , Step+)>
+
+<!ELEMENT Step (Para , ParaIndent?)>
+
+<!ELEMENT Para (#PCDATA)>
+
+<!ELEMENT ParaIndent (#PCDATA)>
+
+<!ELEMENT Time (#PCDATA)>
+
+<!ELEMENT Cookbook (FrontMatter , TOC , Recipe , Recipe+ , IX)>
+
+<!ELEMENT FrontMatter (Title , Copyright)>
+
+<!ELEMENT Title (#PCDATA)>
+
+<!ELEMENT Copyright (#PCDATA)>
+
+<!ELEMENT TOC (#PCDATA)>
+
+<!ELEMENT IX (#PCDATA)>
+
+
